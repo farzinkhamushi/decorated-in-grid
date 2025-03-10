@@ -28,12 +28,12 @@ img{
     display: block;
     aspect-ratio: 1;
     object-fit: cover;
-    transition: 0.3s ease;
+    transition: all 0.3s ease-in-out;
 }
 
 img:hover{
     transform: scale(1.1);
-    rotate: -20deg;
+    rotate: -3deg;
 }
 
 .grid-container :nth-child(1){
