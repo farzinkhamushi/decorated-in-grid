@@ -22,7 +22,7 @@
 .grid-container{
     width: 100%;
     margin-top: 10vh;
-    margin-bottom: 10vh;
+    margin-bottom: 20vh;
     overflow-x: hidden;
     display: grid;
     gap: 0.5rem;
@@ -119,8 +119,8 @@ img:hover{
 .grid-container-2end{
     width: 100%;
     overflow-x: hidden;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
     display: grid;
     gap: 0.5rem;
     grid-template-rows: repeat(5, 1fr);
@@ -140,6 +140,7 @@ img:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 0.5rem;
 }
 
 .grid-container-2end :nth-child(1){
