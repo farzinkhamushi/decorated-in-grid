@@ -1,6 +1,17 @@
 ::-webkit-scrollbar{
-    color: orangered;
+    width: 15px;
 }
+
+::-webkit-scrollbar-thumb{
+    background-color: orangered;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 50px;
+}
+
+
 .grid-container{
     max-width: 800px;
     overflow-x: hidden;
